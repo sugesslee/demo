@@ -2,7 +2,9 @@ language: java
 sudo: true
 jdk:
   - openjdk8
+
 before_install:
-  - chmod +x ./SpringBootQuartzDemo/mvnw
+  - cd SpringBootQuartzDemo 
+  - chmod +x ./mvnw
 script:
-  - "./SpringBootQuartzDemo/mvnw test -B"
+  - "./mvnw test -B"
