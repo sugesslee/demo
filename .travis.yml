@@ -5,4 +5,4 @@ jdk:
 before_install:
   - chmod +x ./SpringBootQuartzDemo/mvnw
 script:
-  -"./SpringBootQuartzDemo/mvnw test -B"
+  - "./SpringBootQuartzDemo/mvnw test -B"
